@@ -1,5 +1,7 @@
 # Sinatra Nested Forms Lab: Superheroes!
 
+HI NICK
+
 ## Overview
 
 In this lab, you'll practice building nested forms in Sinatra for creating teams of superheroes. No database is required, but feel free to add persistence *after* you have successfully completed the instructions below.
@@ -25,7 +27,7 @@ It should look something like this:
 
 ## Final Output
 
-Your params should be nested. For example, in order to see all the superheroes for the team you just created you would enter: 
+Your params should be nested. For example, in order to see all the superheroes for the team you just created you would enter:
 
 ```ruby
 params["team"]["members"]
